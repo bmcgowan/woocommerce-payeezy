@@ -52,7 +52,7 @@ class WC_Payeezy {
 			'<a href="http://docs.woothemes.com/document/payeezy/">' . __( 'Docs', 'woocommerce-payeezy' ) . '</a>',
 		);
 		return array_merge( $plugin_links, $links );
-    }
+	}
 
 	/**
 	 * Init function
@@ -80,7 +80,7 @@ class WC_Payeezy {
 
 		// Add Payeezy Gateway
 		add_filter( 'woocommerce_payment_gateways', array( $this, 'add_gateway' ) );
-    }
+	}
 
 	/**
 	 * Add Payeezy gateway to Woocommerce
@@ -97,7 +97,7 @@ class WC_Payeezy {
 		}
 
 		return $methods;
-    }
+	}
 
 	/**
 	 * process_capture function
