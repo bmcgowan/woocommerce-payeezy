@@ -1,0 +1,4 @@
+*** Payeezy Changelog ***
+
+2015.10.29 - version 1.0.0
+* First Release

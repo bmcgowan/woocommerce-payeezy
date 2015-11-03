@@ -1,0 +1,32 @@
+.credit_cards img {
+	display: inline;
+	vertical-align: middle;
+}
+.credit_cards tr td {
+	text-align: left !important;
+}
+#credit-card {
+	width: 50%;
+}
+.add-card-heading {
+	display: none;
+}
+.edit-card-heading {
+	display: none;
+}
+.payeezy-credit-card {
+	display: none;
+}
+.cc-form-cancel {
+	float: right;
+	color: red;
+}
+.make-default {
+	display: none;
+}
+.payeezy-success-message {
+	display: none;
+}
+.payeezy-error-message {
+	display: none;
+}
